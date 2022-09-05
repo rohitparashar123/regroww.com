@@ -1511,7 +1511,7 @@ html {
 }
 
 .menu-wrapper.show {
-    display: flex
+    display: flex;
 }
 
 .title {
@@ -2427,4 +2427,15 @@ html {
     .xs\:ae\[370px\] {
         max-width: 370px
     }
+}
+
+/* *******************my css********************* */
+.logo{
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+}
+
+.navbar{
+    justify-content: end!important;
 }
