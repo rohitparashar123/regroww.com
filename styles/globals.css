@@ -399,7 +399,7 @@ body {
     bottom: 5rem
 }
 
-.\ !a3 {
+.\ \a3 {
     left: 0 !important
 }
 
@@ -764,7 +764,7 @@ body {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
-.\ !a4c {
+.\ \a4c {
     --tw-translate-x: 0px !important;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important
 }
@@ -2126,7 +2126,7 @@ html {
         width: 66.666667%
     }
     .lg\:a1S\/3 {
-        width: 33.333333%
+        width: 29.333333%
     }
     .lg\:a1S\/2 {
         width: 50%
@@ -2229,7 +2229,7 @@ html {
         padding-top: 170px
     }
     .lg\:a1A\[120px\] {
-        padding-bottom: 120px
+        padding-bottom: 220px
     }
     .lg\:a3p {
         padding-top: 4rem
@@ -2438,4 +2438,40 @@ html {
 
 .navbar{
     justify-content: end!important;
+}
+
+.shadows{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    margin: 25px;
+    padding: 60px 20px 0 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .shadows{
+        margin: 10px;
+    }
+}
+
+.img-fluid{
+    margin-right: 10px;
+    max-width: 30px;
+    height: auto;
+}
+
+.img{
+    margin-top: -183px;
+}
+
+.img-1{
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 768px){
+    .img{
+        margin-top: -50px;
+    }
+    .img-1{
+        margin-top: -50px;
+    }
 }
